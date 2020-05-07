@@ -38,6 +38,10 @@ var helloDE = "Hallo!";
 
 var helloEN = "Hello!";
 
+var headingDE = "Ich bin Boyan";
+
+var headingEN = "I'm Boyan";
+
 $("#switcher").change(function() {
   if($(this).is(":checked")) {
     $(".intro").text(introTextDE);
@@ -50,6 +54,7 @@ $("#switcher").change(function() {
     $(".happy-to-work").text(happyToWorkDE);
     $(".btn").text(contactMeDE);
     $(".hello").text(helloDE);
+    $(".heading").text(headingDE);
 
 
   }
@@ -64,5 +69,6 @@ $("#switcher").change(function() {
     $(".happy-to-work").text(happyToWorkEN);
     $(".btn").text(contactMeEN);
     $(".hello").text(helloEN);
+    $(".heading").text(headingEN);
   }
 })
